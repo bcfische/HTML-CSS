@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Comparison</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li style="font-size:24px; font-weight:bold"><a href="index.html">Latitude</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Plots
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="vis-temp.html">Max Temperature</a></li>
+                        <li><a href="vis-humid.html">Humidity</a></li>
+                        <li><a href="vis-cloud.html">Cloudiness</a></li>
+                        <li><a href="vis-wind.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+    <div class="col-lg-12">
+        <div class="jumbotron">
+            <h1>Comparison: Latitude vs X</h1>
+            <hr>
+            <p>Click any plot to get an in-depth analysis</p>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="vis-temp.html"><img src="img-temp.png" width="100%"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="vis-humid.html"><img src="img-humid.png" width="100%"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="vis-cloud.html"><img src="img-cloud.png" width="100%"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="vis-wind.html"><img src="img-wind.png" width="100%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
